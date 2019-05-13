@@ -27,7 +27,7 @@ count = 10000000
 seedLCG(1)
 lcg_out_filename="lcg"
 mersenne_out_filename="mersenne"
-xoro_out_filename="mersenne"
+xoro_out_filename="xoroshiro"
 rg = RandomGenerator(Xoroshiro128(1234))
 os.remove("lcg.out")
 os.remove("mers.out")
